@@ -1,0 +1,55 @@
+.offer {
+    
+}
+
+.offer__btn {
+    
+}
+
+.offer__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.offer__cta {
+    
+}
+
+.offer__par {
+    
+}
+
+.offer__par-small {
+    
+}
+
+.offer__text-wrap {
+    
+}
+
+.offer__title {
+    color: #672672;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 180%;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+
+.offer__title-white {
+    color: var(--color-white, #fff);
+    padding: 13px 15px;
+    border-radius: 20px;
+    background: rgba(64, 142, 66, 0.86);
+}
+
+.offer__video {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.visually-hidden {
+    
+}
+

@@ -16,5 +16,14 @@
 }
 
 .nav__link:hover {
+    color: var(--color-pink, #E98181);
+}
+
+.nav__link:focus {
+    border-radius: 20px;
+    background-color: var(--color-yellow, #FEE5A5);
+}
+
+.nav__link:active {
     color: var(--color-violet, #672672);
 }
