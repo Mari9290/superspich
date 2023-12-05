@@ -1,0 +1,20 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 90px;
+}
+
+.nav__link {
+    font-size: 20px;
+}
+
+.nav__link:hover {
+    color: var(--color-violet, #672672);
+}

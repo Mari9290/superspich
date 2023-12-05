@@ -1,4 +1,6 @@
 @import url(normalize.css);
+@import url(var.css);
+@import url(header.css);
 
 
 html {
@@ -13,8 +15,10 @@ box-sizing: inherit;
 }
 
 body {
-    /* background-color: var(--color-background, #1B1A1B);
-    color: var(--color-white, #FFF); */
+    background-image: url(../img/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--color-black, #000);
     font-family: Arial, sans-serif;
     position: relative;
     overflow-x: hidden;
@@ -85,7 +89,7 @@ transform: scale(0);
     margin: 0 auto;
 }
 
-section, aside {
+section, aside, header {
     padding: 50px 0;
 }
 
