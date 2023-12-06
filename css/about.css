@@ -160,6 +160,7 @@
     .about__par::after {
         width: 270px;
         height: 70px;
+        left: 30px;
     }
 
     .about__par:nth-child(n)::before {
