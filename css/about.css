@@ -88,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 50px 100px;
+    gap: 60px 100px;
     padding-right: 60px;
 }
 
@@ -166,6 +166,10 @@
     .about__par:nth-child(n)::before {
         width: 30px;
         top: -10px;
+    }
+
+    .about__wrap {
+        gap: 40px;
     }
 }
 
