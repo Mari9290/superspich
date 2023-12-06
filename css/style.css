@@ -103,18 +103,13 @@ section, aside, header {
     margin-bottom: 40px;
 }
 
-/* .title {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50px;
-    text-transform: uppercase;
-    margin: 0 0 50px 0;
-    white-space: pre-line;
-} */
-
 @media (max-width: 880px) {
     section, aside, header {
         padding: 15px 0;
+    }
+
+    .heading {
+        font-size: 36px;
     }
 }
 
@@ -125,5 +120,9 @@ section, aside, header {
 
     section, aside, header {
         padding: 25px 0;
+    }
+
+    .heading {
+        font-size: 32px;
     }
 }
