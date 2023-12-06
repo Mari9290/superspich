@@ -13,6 +13,9 @@
 
 .nav__link {
     font-size: 20px;
+    transition: color .2s ease, 
+    border-radius .3s ease, 
+    background-color .2s ease;
 }
 
 .nav__link:hover {
@@ -26,4 +29,10 @@
 
 .nav__link:active {
     color: var(--color-violet, #672672);
+}
+
+@media (max-width: 650px) {
+    .nav__list {
+        display: none;
+    }
 }

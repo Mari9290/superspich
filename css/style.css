@@ -102,3 +102,19 @@ section, aside, header {
     margin: 0 0 50px 0;
     white-space: pre-line;
 } */
+
+@media (max-width: 880px) {
+    section, aside, header {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    section, aside, header {
+        padding: 25px 0;
+    }
+}
