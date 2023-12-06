@@ -2,6 +2,7 @@
 @import url(var.css);
 @import url(header.css);
 @import url(offer.css);
+@import url(about.css);
 
 
 html {
@@ -19,7 +20,7 @@ body {
     background-image: url(../img/bg.jpg);
     background-repeat: repeat;
     background-size: cover;
-    color: var(--color-black, #000);
+    color: var(--color-black, #3f3f3f);
     font-family: Arial, sans-serif;
     position: relative;
     overflow-x: hidden;
@@ -92,6 +93,14 @@ transform: scale(0);
 
 section, aside, header {
     padding: 50px 0;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2.25px;
+    margin-bottom: 40px;
 }
 
 /* .title {

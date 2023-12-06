@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #3f3f3f;
+        stroke-width: 15px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #3f3f3f;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="m101.5,339.96c6.11-35.9.34-65.41-4.2-81.84h.8c-5.15-13.3-8.13-26.84-8.13-40.37,0-84.63,68.67-153.23,153.34-153.23s153.34,68.6,153.34,153.23c0,13.54-2.94,27.07-8.02,40.37h.57c-3.76,17.67-7.27,45.03-2.1,77.64,7.25,45.83,27.85,78.21,39.9,94.43H59.5c11.42-13.58,34.21-44.45,42-90.23Z"/>
+  <path class="cls-1" d="m196,430.19c-1.9,3.07-13.36,22.25-2.1,38.7,13.04,19.05,52.38,28.3,90.3,14.51"/>
+  <ellipse class="cls-2" cx="374.19" cy="37.78" rx="27.61" ry="27.28"/>
+</svg>
