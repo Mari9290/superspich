@@ -145,6 +145,10 @@
         width: 220px;
     }
 
+    .homework-service__par {
+        white-space: normal;
+    }
+
 }
 
 @media (max-width: 530px) {
