@@ -1,10 +1,13 @@
 .preparation-service {
-    position: relative;
     background-color: var(--color-yellow, #FEE5A5);
 }
 
+.preparation-service__container {
+    position: relative;
+}
+
 .preparation-service__btn {
-    width: 350px;
+    width: 400px;
     display: block;
     border-radius: 20px;
     background: rgba(233, 129, 129, 0.96);
@@ -92,14 +95,14 @@
     padding: 13px;
     border-radius: 20px;
     background-color: var(--color-white, #fff);
-    align-self: center;
+    /* align-self: center; */
     max-width: 400px;
     margin-bottom: 50px;
 }
 
 .preparation-service__img {
     object-fit: contain;
-    width: 500px;
+    width: 466px;
     position: absolute;
     top: 0;
     right: 0;
@@ -122,7 +125,7 @@
     border-radius: 20px;
     background-color: var(--color-white, #fff);
     max-width: 400px;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .preparation-service__wrapper {
