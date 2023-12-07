@@ -100,8 +100,8 @@
 }
 
 .homework-service__par {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 180%;
     letter-spacing: 1.25px;
     white-space: pre-line;
@@ -136,12 +136,12 @@
     }
 
     .homework-service__btn {
-        font-size: 26px;
+        font-size: 22px;
         width: 320px;
     }
 
     .homework-service__link {
-        font-size: 26px;
+        font-size: 22px;
         width: 220px;
     }
 
@@ -153,13 +153,15 @@
 
 @media (max-width: 530px) {
     .homework-service__btn {
-        font-size: 20px;
+        font-size: 18px;
         width: 270px;
+        padding: 15px 25px;
     }
 
     .homework-service__link {
-        font-size: 20px;
+        font-size: 18px;
         width: 220px;
+        padding: 15px 25px;
     }
 
     .homework-service__par {

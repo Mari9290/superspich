@@ -92,8 +92,8 @@
 }
 
 .speech-service__par {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 150%;
     letter-spacing: 1.5px;
     white-space: pre-line;
@@ -136,11 +136,11 @@
     }
 
     .speech-service__btn {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .speech-service__link {
-        font-size: 26px;
+        font-size: 22px;
         width: 220px;
     }
 
@@ -148,17 +148,19 @@
 
 @media (max-width: 530px) {
     .speech-service__btn {
-        font-size: 20px;
+        font-size: 18px;
         width: 270px;
+        padding: 15px 25px;
     }
 
     .speech-service__link {
-        font-size: 20px;
+        font-size: 18px;
         width: 220px;
+        padding: 15px 25px;
     }
 
     .speech-service__par {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 70px;
     }
 
