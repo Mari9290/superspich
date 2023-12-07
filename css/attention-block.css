@@ -1,0 +1,25 @@
+.attention-block {
+    background-color: #6F2277;
+}
+
+.attention-block__heading {
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.75px;
+}
+
+@media (max-width: 1000px) {
+    .attention-block__heading {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .attention-block__heading {
+        font-size: 25px;
+    }
+}
+

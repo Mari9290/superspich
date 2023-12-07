@@ -106,6 +106,19 @@
     flex-wrap: wrap;
 }
 
+.speech-service {
+    position: relative;
+}
+
+.speech-service__wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -2;
+}
+
 @media (max-width: 1200px) {
     .speech-service__figure {
         width: 400px;
