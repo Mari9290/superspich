@@ -115,7 +115,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
     .conversational-service__wrapper {
         justify-content: center;
         gap: 30px;

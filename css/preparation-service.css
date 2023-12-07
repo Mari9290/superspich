@@ -1,0 +1,205 @@
+.preparation-service {
+    position: relative;
+    background-color: var(--color-yellow, #FEE5A5);
+}
+
+.preparation-service__btn {
+    width: 350px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(233, 129, 129, 0.96);
+    padding: 20px 15px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.28px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.preparation-service__btn-flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flare 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    left: -150%;
+}
+
+@keyframes flare {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.preparation-service__btn:hover {
+    background-color: #d86666;
+}
+
+.preparation-service__btn:focus {
+    background-color: var(--color-pink, #E98181);
+}
+
+.preparation-service__btn:active {
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.preparation-service__link {
+    width: 250px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(52, 143, 65, 0.86);
+    padding: 20px 15px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.28px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+}
+
+.preparation-service__link:hover {
+    background-color: #1f742c;
+}
+
+.preparation-service__link:focus {
+    background-color: var(--color-green, #348F41);
+}
+
+.preparation-service__link:active {
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.preparation-service__figure {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: var(--color-white, #fff);
+    align-self: center;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.preparation-service__img {
+    object-fit: contain;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.preparation-service__item {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.preparation-service__par {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+    white-space: pre-line;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--color-white, #fff);
+    max-width: 400px;
+    align-self: flex-end;
+}
+
+.preparation-service__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+@media (max-width: 1020px) {
+    /* .preparation-service__wrapper {
+        width: 100%;
+    } */
+
+    .preparation-service__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .preparation-service__img {
+        object-fit: contain;
+        display: block;
+        position: relative;
+    }
+
+    .preparation-service__btn {
+        font-size: 22px;
+        width: 350px;
+    }
+
+    .preparation-service__link {
+        font-size: 22px;
+        width: 220px;
+    }
+
+    .preparation-service__par {
+        font-size: 18px;
+    }
+
+    .preparation-service__figure {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .preparation-service__par {
+        width: 300px;
+        align-self: center;
+    }
+
+    .preparation-service__figure {
+        width: 300px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .preparation-service__btn {
+        font-size: 18px;
+        width: 200px;
+        padding: 15px 25px;
+    }
+
+    .preparation-service__link {
+        font-size: 18px;
+        width: 180px;
+        padding: 15px 25px;
+    }
+
+    .preparation-service__par {
+        font-size: 16px;
+    }
+
+    .preparation-service__figure {
+        font-size: 16px;
+    }
+
+}
