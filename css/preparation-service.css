@@ -117,8 +117,8 @@
 .preparation-service__par {
     font-size: 22px;
     font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 1.2px;
+    line-height: 150%;
+    letter-spacing: 1.25px;
     white-space: pre-line;
     margin-bottom: 50px;
     padding: 10px;
@@ -135,10 +135,6 @@
 }
 
 @media (max-width: 1020px) {
-    /* .preparation-service__wrapper {
-        width: 100%;
-    } */
-
     .preparation-service__wrap {
         display: flex;
         flex-wrap: wrap;

@@ -102,7 +102,7 @@
 .homework-service__par {
     font-size: 22px;
     font-weight: 500;
-    line-height: 180%;
+    line-height: 150%;
     letter-spacing: 1.25px;
     white-space: pre-line;
     margin-bottom: 60px;
@@ -152,6 +152,10 @@
 }
 
 @media (max-width: 530px) {
+    .homework-service__par-orang {
+        padding: 5px 0;
+    }
+
     .homework-service__btn {
         font-size: 18px;
         width: 270px;
@@ -165,7 +169,7 @@
     }
 
     .homework-service__par {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 40px;
     }
 
