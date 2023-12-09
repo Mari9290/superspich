@@ -125,7 +125,6 @@
     border-radius: 20px;
     background-color: var(--color-white, #fff);
     max-width: 400px;
-    /* align-self: flex-end; */
 }
 
 .preparation-service__wrapper {
@@ -135,11 +134,14 @@
 }
 
 @media (max-width: 1020px) {
+    .preparation-service__wrapper {
+        max-width: 100%;
+    }
+
     .preparation-service__wrap {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        justify-content: center;
     }
 
     .preparation-service__img {
@@ -183,13 +185,13 @@
 
     .preparation-service__btn {
         font-size: 18px;
-        width: 200px;
+        width: 280px;
         padding: 15px 25px;
     }
 
     .preparation-service__link {
         font-size: 18px;
-        width: 180px;
+        width: 220px;
         padding: 15px 25px;
     }
 

@@ -131,7 +131,6 @@
 
 @media (max-width: 940px) {
     .homework-service__wrapper {
-        justify-content: center;
         gap: 40px;
     }
 
@@ -149,6 +148,10 @@
         white-space: normal;
     }
 
+    .homework-service__figure {
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 530px) {
@@ -158,7 +161,7 @@
 
     .homework-service__btn {
         font-size: 18px;
-        width: 270px;
+        width: 280px;
         padding: 15px 25px;
     }
 

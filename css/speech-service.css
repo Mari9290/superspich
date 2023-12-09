@@ -122,16 +122,14 @@
 @media (max-width: 1200px) {
     .speech-service__figure {
         width: 400px;
+        margin: auto;
     }
 
-    .speech-service__wrap {
-        justify-content: space-evenly;
-    }
 }
 
 @media (max-width: 940px) {
     .speech-service__wrap {
-        justify-content: center;
+        /* justify-content: center; */
         gap: 30px;
     }
 
@@ -149,7 +147,7 @@
 @media (max-width: 530px) {
     .speech-service__btn {
         font-size: 18px;
-        width: 270px;
+        width: 280px;
         padding: 15px 25px;
     }
 

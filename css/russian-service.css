@@ -97,8 +97,6 @@
 .russian-service__img {
     width: 500px;
     border-radius: 20px;
-    /* padding: 20px;
-    background-color: var(--color-yellow); */
 }
 
 .russian-service__figure {
@@ -114,7 +112,6 @@
 
 @media (max-width: 940px) {
     .russian-service__wrapper {
-        justify-content: center;
         gap: 30px;
     }
 
@@ -129,6 +126,7 @@
 
     .russian-service__img, .russian-service__figure {
         width: 80%;
+        margin: auto;
     }
 
     .russian-service-par {
@@ -140,13 +138,13 @@
 @media (max-width: 530px) {
     .russian-service__btn {
         font-size: 18px;
-        width: 230px;
+        width: 280px;
         padding: 15px 25px;
     }
 
     .russian-service__link {
         font-size: 18px;
-        width: 180px;
+        width: 220px;
         padding: 15px 25px;
     }
 
