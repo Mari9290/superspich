@@ -1,0 +1,112 @@
+.first-screen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70vh;
+    padding: 0 10px;
+}
+
+.first-screen__btn {
+    opacity: 0;
+    animation-name: show;
+    animation-delay: 1.3s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    padding: 20px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.28px;
+    border-radius: 20px;
+    background: var(--color-pink-lite, rgba(233, 129, 129, 0.96));
+}
+
+.first-screen__img {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    animation-name: show;
+    animation-delay: .3s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.first-screen__text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.92px;
+    text-align: center;
+}
+
+.first-screen__wrapper {
+    border-radius: 20px;
+    background: var(--color-green, #348F41);
+    padding: 30px;
+    max-width: 400px;
+    position: relative;
+    opacity: 0;
+    animation-name: show;
+    animation-delay: .8s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show {
+    100% {
+        opacity: 1;
+    }
+}
+
+.first-screen__wrapper::after {
+    content: '';
+    border-bottom: 100px solid var(--color-green, #348F41);
+    border-left: 100px solid transparent;
+    position: absolute;
+    bottom: -22px;
+    left: -50px;
+    z-index: -1;
+    transform: rotate(-25deg);
+}
+
+.first-screen__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+@media (max-width: 700px) {
+    .first-screen__img {
+        width: 152px;
+        height: 151px;
+    }
+
+    .first-screen__text {
+        font-size: 16px;
+    }
+
+    .first-screen__wrapper {
+        padding: 15px;
+    }
+
+    .first-screen__wrapper::after {
+        border-bottom: 40px solid var(--color-green,#348F41);
+        border-left: 40px solid transparent;
+        bottom: -10px;
+        left: -20px;
+    }
+
+    .first-screen__btn {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .first-screen__text {
+        font-size: 14px;
+    }
+}

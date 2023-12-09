@@ -10,6 +10,9 @@
 @import url(conversational-service.css);
 @import url(preparation-service.css);
 @import url(theater-service.css);
+@import url(game-offer.css);
+@import url(first-screen.css);
+@import url(second-screen.css);
 
 
 html {
@@ -109,6 +112,16 @@ section, aside, header {
     margin-bottom: 40px;
 }
 
+.btn-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
 @media (max-width: 880px) {
     section, aside, header {
         padding: 15px 0;
@@ -116,6 +129,10 @@ section, aside, header {
 
     .heading {
         font-size: 36px;
+    }
+
+    .btn-arrow {
+        width: 70px;
     }
 }
 
@@ -130,5 +147,9 @@ section, aside, header {
 
     .heading {
         font-size: 28px;
+    }
+
+    .btn-arrow {
+        width: 50px;
     }
 }
