@@ -1,0 +1,166 @@
+.team-slider__header {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+}
+
+.slider__img {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.slider__header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-black);
+    margin-bottom: 20px;
+}
+
+.slider__par {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.slider__item {
+    height: 550px;
+    background-color: rgba(232, 232, 232, 0.55);
+    border-radius: 20px;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.slider__wrap {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.team__container {
+    position: relative;
+}
+
+.team__par {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.team__svg {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 300px;
+    height: 260px;
+    z-index: -1;
+}
+
+
+  /* Слайдер: */
+.slider{
+    max-width: 100%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    display: flex;
+    justify-content: center;
+}
+
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: var(--color-violet);
+    font-weight: bold;
+    font-size: 26px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+    
+}
+
+.slider .previous {
+    left: 0;
+}
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+@media (max-width: 500px) {
+    .slider__wrap {
+        width: 250px;
+    }
+
+    .slider .previous {
+        left: -10px;
+    }
+    
+    .slider .next {
+        right: -10px;
+    }
+
+    .slider__par {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .slider__header {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .team__svg {
+        top: 30%;
+        right: 12%;
+    }
+}
