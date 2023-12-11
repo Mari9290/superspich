@@ -1,0 +1,207 @@
+.stages {
+    background-color:#F4E8F6;
+}
+
+.stages__btn {
+    width: 400px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(233, 129, 129, 0.96);
+    padding: 20px 15px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.28px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.stages__btn-flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flare 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    left: -150%;
+}
+
+@keyframes flare {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.stages__btn:hover {
+    background-color: #d86666;
+}
+
+.stages__btn:focus {
+    background-color: var(--color-pink, #E98181);
+}
+
+.stages__btn:active {
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.stages__item {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    white-space: pre-line;
+    width: 279px;
+    height: 172px;
+    padding: 20px 0 0 40px;
+}
+
+.stages__item:nth-child(1)::before {
+    content: "1.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item:nth-child(2)::before {
+    content: "2.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item:nth-child(3)::before {
+    content: "3.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item:nth-child(4)::before {
+    content: "4.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item:nth-child(5)::before {
+    content: "5.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item:nth-child(6)::before {
+    content: "6.";
+    font-size: 25px;
+    color: var(--color-violet, #672672);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.25px;
+    margin-right: 10px;
+} 
+
+.stages__item::after {
+    content: url(../img/stages/stages.svg);
+    width: 279px;
+    height: 172px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.stages__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1070px) {
+    .stages__list {
+        gap: 20px;
+    }
+
+    .theater-service__btn {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 940px) {
+    .stages__list {
+        gap: 20px;
+    }
+
+    .stages__item {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 1.25px;
+        white-space: pre-line;
+        width: 250px;
+        height: 150px;
+        padding: 20px 0 0 40px;
+    }
+
+    .stages__item::after {
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .stages__list {
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .stages__list {
+        justify-content: center;
+    }
+
+    .stages__btn {
+        font-size: 18px;
+        width: 280px;
+        padding: 15px 25px;
+    }
+
+    .stages__item {
+        font-size: 14px;
+    }
+
+    .stages__item:nth-child(n)::before {
+        font-size: 20px;
+    }
+
+}
+
