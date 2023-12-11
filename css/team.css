@@ -73,36 +73,25 @@
     z-index: -1;
 }
 
-
-  /* Слайдер: */
 .slider{
     max-width: 100%;
-    /* Положение элемента устанавливается относительно его исходной позиции: */
     position: relative;
-    /* Центрируем по горизонтали: */
     display: flex;
     justify-content: center;
 }
 
-/* Кнопки назад и вперёд: */
 .slider .previous, .slider .next {
-    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
     cursor: pointer;
-    /* Положение элемента задаётся относительно границ браузера: */
     position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    /* Оформление самих кнопок: */
     color: var(--color-violet);
     font-weight: bold;
     font-size: 26px;
-    /* Плавное появление фона при наведении курсора: */
     transition: 0.6s ease;
-    /* Скругление границ: */
     border-radius: 0 3px 3px 0;
-    
 }
 
 .slider .previous {
@@ -114,19 +103,16 @@
     border-radius: 3px 0 0 3px;
 }
 
-/* При наведении курсора на кнопки добавляем фон кнопок: */
 .slider .previous:hover,
 .slider .next:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Анимация слайдов: */
 .slider .item {
     animation-name: fade;
     animation-duration: 1.5s;
 }
 @keyframes fade {
-    /* Устанавливаем и изменяем степень прозрачности: */
     from {
         opacity: 0.4
     }
