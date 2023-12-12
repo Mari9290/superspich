@@ -34,6 +34,7 @@
     text-align: center;
     display: block;
     margin-bottom: 20px;
+    line-height: 150%;
 }
 
 .footer__par:last-child {

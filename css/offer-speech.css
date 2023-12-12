@@ -74,6 +74,7 @@
     white-space: pre-line;
     position: relative;
     margin-bottom: 30px;
+    line-height: 180%;
 }
 
 .offer-speech__cta-free {
@@ -87,6 +88,7 @@
     padding: 0 8px;
     position: absolute;
     bottom: 10px;
+    line-height: 120%;
     transform: rotate(-4.791deg);
     right: 120px;
 }
@@ -105,6 +107,7 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    line-height: 150%;
 }
 
 .offer-speech__par-small {
@@ -119,6 +122,7 @@
     font-weight: 700;
     white-space: pre-line;
     margin-bottom: 30px;
+    line-height: 180%;
 }
 
 

@@ -81,6 +81,7 @@
     bottom: 10px;
     transform: rotate(-4.791deg);
     right: 120px;
+    line-height: 120%;
 }
 
 .offer__par {
@@ -88,6 +89,7 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    line-height: 150%;
 }
 
 .offer__par-small {

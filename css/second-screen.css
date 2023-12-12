@@ -45,7 +45,7 @@ to {
     font-weight: 400;
     color: var(--color-green, #348F41);
     text-align: center;
-
+    line-height: 150%;
 }
 
 .second-screen__fieldset {

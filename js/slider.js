@@ -25,12 +25,12 @@ function showSlides(n) {
     
     /* Проверяем количество слайдов: */
     if (n > slides.length) {
-      slideIndex = 1
+        slideIndex = 1
     }
     if (n < 1) {
         slideIndex = slides.length
     }
-  
+
     /* Проходим по каждому слайду в цикле for: */
     for (let slide of slides) {
         slide.style.display = "none";

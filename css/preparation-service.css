@@ -117,6 +117,7 @@
     border-radius: 20px;
     background-color: var(--color-white, #fff);
     max-width: 400px;
+    line-height: 150%;
 }
 
 .preparation-service__wrapper {
