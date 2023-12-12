@@ -5,8 +5,6 @@
 .homework-page__header {
     font-size: 23px;
     font-weight: 700;
-    line-height: 130%;
-    letter-spacing: 1.25px;
     margin-bottom: 10px;
 }
 
@@ -18,8 +16,6 @@
 .homework-page__list {
     font-size: 20px;
     font-weight: 500;
-    line-height: 130%;
-    letter-spacing: 1.25px;
     margin-bottom: 10px;
 }
 
@@ -47,8 +43,6 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 1.28px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: background-color .2s ease, 
     box-shadow .3s ease;
@@ -98,8 +92,6 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 1.25px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: background-color .2s ease, 
     box-shadow .3s ease;
@@ -128,23 +120,17 @@
 .homework__par {
     font-size: 20px;
     font-weight: 500;
-    line-height: 130%;
-    letter-spacing: 1.25px;
 }
 
 .homework__par-bold {
     font-size: 20px;
     font-weight: 700;
-    line-height: 130%;
-    letter-spacing: 1.25px;
 }
 
 .homework__title {
     color: var(--color-white);
     font-size: 35px;
     font-weight: 700;
-    line-height: 130%;
-    letter-spacing: 1.25px;
 }
 
 .homework-page__wrap {

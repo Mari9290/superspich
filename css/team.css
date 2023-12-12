@@ -1,8 +1,6 @@
 .team-slider__header {
     font-size: 20px;
     font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 1.25px;
 }
 
 .slider__img {
@@ -16,8 +14,6 @@
 .slider__header {
     font-size: 16px;
     font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 1.25px;
     text-align: center;
     border-bottom: 1px solid var(--color-black);
     margin-bottom: 20px;
@@ -26,8 +22,6 @@
 .slider__par {
     font-size: 12px;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 1.25px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -58,8 +52,6 @@
 .team__par {
     font-size: 22px;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 1.25px;
     white-space: pre-line;
     margin-bottom: 50px;
 }
@@ -148,5 +140,10 @@
     .team__svg {
         top: 30%;
         right: 12%;
+    }
+
+    .team__par {
+        font-size: 16px;
+        margin-bottom: 30px;
     }
 }

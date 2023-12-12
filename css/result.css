@@ -19,8 +19,6 @@
 .result__item {
     font-size: 18px;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 1.25px;
     border-radius: 20px;
     background: rgba(254, 229, 165, 0.85);
     padding: 20px 0 20px 20px;
@@ -42,8 +40,6 @@
 .result__par-violet {
     font-size: 20px;
     font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 1.25px;
     color: var(---color-violet, #672672);
 }
 

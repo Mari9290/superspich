@@ -36,8 +36,6 @@ to {
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 1.28px;
     border-radius: 20px;
     background: var(--color-pink, rgba(233, 129, 129, 0.96));
 }
@@ -45,8 +43,6 @@ to {
 .second-screen__par {
     font-size: 24px;
     font-weight: 400;
-    line-height: 115%;
-    letter-spacing: 1.92px;
     color: var(--color-green, #348F41);
     text-align: center;
 

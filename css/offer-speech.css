@@ -21,8 +21,6 @@
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 1.28px;
     margin-bottom: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: background-color .2s ease, 
@@ -73,7 +71,6 @@
     color: var(--color-violet, #672672);
     font-size: 32px;
     font-weight: 700;
-    line-height: 180%;
     white-space: pre-line;
     position: relative;
     margin-bottom: 30px;
@@ -86,7 +83,6 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    line-height: 180%;
     text-transform: uppercase;
     padding: 0 8px;
     position: absolute;
@@ -121,7 +117,6 @@
     color: var(--color-violet, #672672);
     font-size: 36px;
     font-weight: 700;
-    line-height: 180%;
     white-space: pre-line;
     margin-bottom: 30px;
 }
