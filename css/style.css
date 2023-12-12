@@ -1,7 +1,6 @@
 @import url(normalize.css);
 @import url(var.css);
 @import url(header.css);
-@import url(hamburger.css);
 @import url(offer.css);
 @import url(about.css);
 @import url(speech-service.css);
@@ -25,6 +24,7 @@
 @import url(team.css);
 @import url(homework-page.css);
 @import url(reviews.css);
+@import url(hamburger.css);
 
 
 html {
