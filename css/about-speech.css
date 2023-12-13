@@ -89,7 +89,7 @@
 
 @media (max-width: 1120px) {
     .about-speech__par { 
-        padding: 10px 10px 20px 60px;
+        padding: 10px 15px 20px 60px;
         width: 400px;
         height: 125px;
     }
@@ -112,7 +112,7 @@
 
 @media (max-width: 520px) {
     .about-speech__par { 
-        padding: 10px 5px 10px 40px;
+        padding: 10px 15px 10px 40px;
         width: 300px;
         height: 100px;
         font-size: 10px;
@@ -141,7 +141,7 @@
     }
 
     .about-speech__par { 
-        padding: 10px 5px 10px 40px;
+        padding: 10px 15px 10px 40px;
         width: 280px;
         height: 100px;
         font-size: 11px;

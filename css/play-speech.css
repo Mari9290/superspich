@@ -1,0 +1,118 @@
+.play-speech__btn {
+    width: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    background: rgba(233, 129, 129, 0.96);
+    padding: 20px 15px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+}
+
+.play-speech__img {
+    width: 150px;
+    float: left;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block; 
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.play-speech__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.play-speech__par {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    white-space: pre-line;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.play-speech__text {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.play-speech__text-violet {
+    color: var(--color-violet);
+}
+
+.play-speech__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 435px;
+}
+
+.play-speech__wrapper {
+    padding: 30px;
+    width: 435px;
+    height: 325px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.30);
+}
+
+.play-speech__video {
+    border-radius: 20px;
+    width: 435px;
+}
+
+@media (max-width: 950px) {
+    .play-speech__container {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .play-speech__wrap {
+        width: 300px;
+    }
+
+    .play-speech__wrapper {
+        width: 300px;
+        padding-top: 35px;
+    }
+
+    .play-speech__text {
+        font-size: 20px;
+    }
+
+    .play-speech__video {
+        width: 300px;
+    }
+
+    .play-speech__btn {
+        font-size: 18px;
+        width: 120px;
+        padding: 15px 25px;
+    }
+
+    .play-speech__img {
+        width: 100px;
+    }
+
+    .play-speech__par {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+}
