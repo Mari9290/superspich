@@ -33,6 +33,7 @@
 @import url(btn-wrap.css);
 @import url(about-bilingual.css);
 @import url(result-bilingual.css);
+@import url(price-bilingual.css);
 
 
 html {
@@ -98,6 +99,7 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p,
 figure,
 fieldset {
