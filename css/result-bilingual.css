@@ -1,0 +1,134 @@
+.result-bilingual {
+    overflow: hidden;
+}
+
+.result-bilingual__container {
+    position: relative;
+}
+
+.result-bilingual__img {
+    object-fit: contain;
+    width: 560px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+}
+
+.result-bilingual__item {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: rgba(254, 229, 165, 0.85);
+    padding: 20px 0 20px 20px;
+    width: 60%;
+    line-height: 150%;
+}
+
+.result-bilingual__item-online {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.result-bilingual__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.result-bilingual__par-violet {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(---color-violet, #672672);
+    line-height: 150%;
+}
+
+
+@media (max-width: 1200px) {
+    .result-bilingual__item {
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .result-bilingual__par-violet {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 890px) {
+    .result-bilingual__item {
+        font-size: 14px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .result-bilingual__par-violet {
+        font-size: 16px;
+    }
+
+    .result-bilingual__img {
+        left: 40%;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 650px) {
+    .result-bilingual__item {
+        width: 70%;
+    }
+
+    /* .result-bilingual__par-violet {
+        font-size: 14px;
+    } */
+
+    .result-bilingual__img {
+        left: 30%;
+        padding-top: 80px;
+    }
+
+    .result-bilingual__list {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 515px) {
+    .result-bilingual__item {
+        padding: 10px 0 10px 10px;
+        font-size: 12px;
+        width: 65%;
+    }
+
+    .result-bilingual__img {
+        left: 30%;
+        padding-top: 80px;
+    }
+
+}
+
+@media (max-width: 490px) {
+    .result-bilingual__item {
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .result-bilingual__par-violet {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .result-bilingual__item {
+        font-size: 8px;
+        width: 80%;
+    }
+
+    .result-bilingual__par-violet {
+        font-size: 10px;
+    }
+
+    .result-bilingual__img {
+        padding-top: 80px;
+    }
+
+}
