@@ -30,9 +30,3 @@
 .nav__link:active {
     color: var(--color-violet, #672672);
 }
-
-/* @media (max-width: 650px) {
-    .nav__list {
-        display: none;
-    }
-} */

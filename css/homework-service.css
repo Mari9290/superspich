@@ -105,7 +105,7 @@
 
 .homework-service__par-orang {
     border-radius: 20px;
-    background: #FEE5A5;
+    background: var(--color-yellow, #FEE5A5);
     padding: 10px 0;
 }
 

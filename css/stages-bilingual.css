@@ -1,6 +1,6 @@
 .stages-bilingual {
     overflow: hidden;
-    background: #FEE5A5;;
+    background: var(--color-yellow, #FEE5A5);
     position: relative;
     z-index: -1;
 }
@@ -131,6 +131,7 @@
 
     .stages-bilingual__item:nth-child(n)::before {
         font-size: 18px;
+        margin-right: 5px;
     }
 }
 
