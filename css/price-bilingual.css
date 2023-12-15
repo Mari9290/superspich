@@ -148,6 +148,10 @@
 }
 
 @media (max-width: 700px) {
+    .price-bilingual__text {
+        font-size: 16px;
+    }
+
     .price-bilingual__cta-free {
         bottom: -20px;
     }
@@ -155,5 +159,13 @@
     .price-bilingual__wrapper {
         justify-content: center;
         gap: 20px;
+    }
+
+    .price-bilingual__cta {
+        font-size: 22px;
+    }
+
+    .price-bilingual__cta-free {
+        font-size: 25px;
     }
 }
