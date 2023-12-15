@@ -1,6 +1,16 @@
 .header__container {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color: var(--color-white);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.header {
+    margin-bottom: 50px;
 }
 
 .nav__list {
