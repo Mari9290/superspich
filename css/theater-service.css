@@ -131,6 +131,7 @@
     .theater-service__par {
         font-size: 16px;
         margin-bottom: 30px;
+        white-space: normal;
     }
 
     .theater-service__figure {
