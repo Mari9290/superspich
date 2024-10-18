@@ -85,14 +85,22 @@
                         за <span class="offer-speech__cta-price">1100р</span><span class="offer-speech__cta-free">бесплатно!</span>
                     </h3>
 
-                    <a 
+                    <div class="offer-speech__btn-wrap">
+                        <a 
                         class="offer-speech__btn"
                         href="https://paraplancrm.ru/w/474c4dfe-6751-1673-d790-d57fd6377cd6"
                         target="_blank"
-                    >
-                    Пройти диагностику
-                        <span class="offer-speech__btn-flare"></span>
-                    </a>
+                        >
+                        Пройти диагностику
+                            <span class="offer-speech__btn-flare"></span>
+                        </a>
+
+                        <button 
+                            class="offer-speech__btn-green open-popup"
+                        >
+                            Написать нам
+                        </button>
+                    </div>
 
                     <p class="offer-speech__par">
                         Первые результаты уже после 3-х уроков!
@@ -333,16 +341,65 @@
 
         <aside class="call">
             <div class="container call__container">
-                <span class="call__text">У вас остались вопросы? Напишите нам в  </span>
-                <a 
-                    class="call__social"
-                    href="https://wa.me/+79956841290"
-                    target="_blank"
-                >
-                    WhatsApp
-                </a>
+                <span class="call__text">У вас остались вопросы? Напишите нам:</span>
+                <div class="call__wrap">
+                    <a 
+                        class="call__social call__social-wh"
+                        href="https://wa.me/+79956841290"
+                        target="_blank"
+                    >
+                        WhatsApp
+                    </a>
+
+                    <a 
+                        class="call__social call__social-tg"
+                        href="tg://resolve?domain=superspeech_online_school"
+                        target="_blank"
+                    >
+                        Telegram
+                    </a>
+
+                    <a 
+                        class="call__social call__social-vk"
+                        href="https://vk.me/superspeech"
+                        target="_blank"
+                    >
+                        ВКонтакте
+                    </a>
+                </div>
             </div>
         </aside>
+
+        <div class="popup__bg"> 
+            <div class="popup">
+                <div class="popup__wrap">
+                    <a 
+                        class="call__social call__social-wh"
+                        href="https://wa.me/+79956841290"
+                        target="_blank"
+                    >
+                        WhatsApp
+                    </a>
+
+                    <a 
+                        class="call__social call__social-tg"
+                        href="tg://resolve?domain=superspeech_online_school"
+                        target="_blank"
+                    >
+                        Telegram
+                    </a>
+
+                    <a 
+                        class="call__social call__social-vk"
+                        href="https://vk.me/superspeech"
+                        target="_blank"
+                    >
+                        ВКонтакте
+                    </a>
+                </div>
+                <button class="close-popup">ОК</button>
+            </div>
+        </div>
 
     </main>
 
@@ -384,6 +441,7 @@
     </footer>
 
     <script src="js/copyrigt.js"></script>
+    <script src="js/popup.js"></script>
     <script src="js/humburger.js"></script>
     <script src="js/karusel-speech.js"></script>
     <script src="js/btnup.js"></script>

@@ -11,22 +11,52 @@
     z-index: -1;
 }
 
+.offer-speech__btn-wrap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 .offer-speech__btn {
-    width: 440px;
+    width: 300px;
     display: block;
     border-radius: 20px;
     background: rgba(233, 129, 129, 0.96);
     padding: 22px 45px;
     color: var(--color-white, #fff);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
-    margin-bottom: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: background-color .2s ease, 
     box-shadow .3s ease;
     position: relative;
     overflow-x: hidden;
+}
+
+
+.offer-speech__btn-green {
+    width: 300px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(52, 143, 65, 0.86);
+    padding: 22px 45px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+    background: linear-gradient(180deg, rgba(248,223,141,1) 0%, rgba(241,161,98,1) 100%);
+}
+
+.offer-speech__btn-green:hover {
+    background: linear-gradient(180deg, rgb(255, 208, 54) 0%, rgba(241,161,98,1) 100%);
+}
+
+.offer-speech__btn-green:active {
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .offer-speech__btn-flare {
@@ -125,6 +155,14 @@
     line-height: 180%;
 }
 
+@media (max-width: 1175px) {
+    .offer-speech__btn, .offer-speech__btn-green {
+        font-size: 16px;
+        width: 220px;
+        padding: 15px 20px;
+    }
+}
+
 
 @media (max-width: 1100px) {
 
@@ -138,11 +176,6 @@
 
     .offer-speech__cta-free {
         font-size: 24px;
-    }
-
-    .offer-speech__btn {
-        font-size: 28px;
-        width: 400px;
     }
 
     .offer-speech__par {
@@ -190,12 +223,6 @@
         right: 70px;
     }
 
-    .offer-speech__btn {
-        font-size: 18px;
-        width: 260px;
-        padding: 15px 25px;
-    }
-
     .offer-speech__par {
         font-size: 16px;
     }
@@ -203,11 +230,23 @@
     .offer-speech__par-small {
         font-size: 14px;
     }
+
+    .offer-speech__btn, .offer-speech__btn-green {
+        font-size: 12px;
+        width: 150px;
+        padding: 10px 5px;
+    }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 430px) {
     .offer-speech__title {
         font-size: 22px;
+    }
+
+    .offer-speech__btn, .offer-speech__btn-green {
+        font-size: 10px;
+        width: 130px;
+        padding: 10px 5px;
     }
 }
 
