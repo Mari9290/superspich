@@ -99,8 +99,6 @@
 
 .offer__cta-free {
     border-radius: 20px;
-    /* background: rgba(234, 165, 94, 0.86);
-    color: var(--color-white, #fff); */
     color:rgba(241, 81, 81, 0.96);
     text-align: center;
     font-size: 28px;
@@ -110,7 +108,6 @@
     position: absolute;
     bottom: 10px;
     transform: rotate(-4.791deg);
-    /* right: 120px; */
     line-height: 120%;
 }
 
@@ -219,7 +216,6 @@
     .offer__cta-free {
         font-size: 18px;
         bottom: 0;
-        /* right: 70px; */
     }
 
     .offer__par {

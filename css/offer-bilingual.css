@@ -3,21 +3,26 @@
 }
 
 .offer-bilingual__btn {
-    width: 440px;
+    width: 300px;
     display: block;
     border-radius: 20px;
     background: rgba(233, 129, 129, 0.96);
     padding: 22px 45px;
     color: var(--color-white, #fff);
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
-    margin-bottom: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: background-color .2s ease, 
     box-shadow .3s ease;
     position: relative;
     overflow-x: hidden;
+}
+
+.offer-bilingual__btn-wrap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .offer-bilingual__btn-flare {
@@ -29,6 +34,31 @@
     animation: flare 2s infinite linear;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
     left: -150%;
+}
+
+
+.offer-bilingual__btn-green {
+    width: 300px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(52, 143, 65, 0.86);
+    padding: 22px 45px;
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+    background: linear-gradient(180deg, rgba(248,223,141,1) 0%, rgba(241,161,98,1) 100%);
+}
+
+.offer-bilingual__btn-green:hover {
+    background: linear-gradient(180deg, rgb(255, 208, 54) 0%, rgba(241,161,98,1) 100%);
+}
+
+.offer-bilingual__btn-green:active {
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes flare {
@@ -111,8 +141,7 @@
 
 .offer-bilingual__cta-free {
     border-radius: 20px;
-    background: rgba(234, 165, 94, 0.86);
-    color: var(--color-white, #fff);
+    color:rgba(241, 81, 81, 0.96);
     text-align: center;
     font-size: 28px;
     font-weight: 700;
@@ -120,9 +149,16 @@
     padding: 0 8px;
     position: absolute;
     bottom: 10px;
-    line-height: 120%;
     transform: rotate(-4.791deg);
-    right: 120px;
+    line-height: 120%;
+}
+
+@media (max-width: 1175px) {
+    .offer-bilingual__btn, .offer-bilingual__btn-green {
+        font-size: 16px;
+        width: 220px;
+        padding: 15px 20px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -137,11 +173,6 @@
 
     .offer-bilingual__cta-free {
         font-size: 24px;
-    }
-
-    .offer-bilingual__btn {
-        font-size: 26px;
-        width: 410px;
     }
 
     .offer-bilingual__par {
@@ -163,6 +194,12 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+    }
+
+    .offer-bilingual__btn, .offer-bilingual__btn-green {
+        font-size: 12px;
+        width: 150px;
+        padding: 10px 5px;
     }
 }
 
@@ -189,10 +226,10 @@
         right: 70px;
     }
 
-    .offer-bilingual__btn {
-        font-size: 18px;
-        width: 270px;
-        padding: 15px 25px;
+    .offer-bilingual__btn, .offer-bilingual__btn-green {
+        font-size: 12px;
+        width: 150px;
+        padding: 10px 5px;
     }
 
     .offer-bilingual__par {
@@ -204,8 +241,14 @@
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 430px) {
     .offer-bilingual__title {
         font-size: 22px;
+    }
+
+    .offer-bilingual__btn, .offer-bilingual__btn-green {
+        font-size: 10px;
+        width: 130px;
+        padding: 10px 5px;
     }
 }

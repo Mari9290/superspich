@@ -35,7 +35,7 @@
 @import url(result-bilingual.css);
 @import url(price-bilingual.css);
 @import url(btnup.css);
-@import url(services-price.css);
+@import url(quiz.css);
 @import url(popup.css);
 
 
@@ -128,8 +128,12 @@ transform: scale(0);
     margin: 0 auto;
 }
 
-section, aside, header, footer {
+section, aside, footer {
     padding: 50px 0;
+}
+
+header {
+    padding: 25px 0;
 }
 
 .heading {
